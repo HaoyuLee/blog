@@ -1,6 +1,7 @@
 module.exports = {
   title: '身不由己的灰太狼',
   description: '身不由己的灰太狼的个人博客',
+  base: '/blog/',
   theme: 'reco',
   themeConfig: {
     logo: '/avatar.jpg',
