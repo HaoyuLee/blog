@@ -1,6 +1,6 @@
 module.exports = {
-  title: '身不由己的灰太狼',
-  description: '身不由己的灰太狼的个人博客',
+  title: '灰太狼',
+  description: '灰太狼的个人博客',
   base: '/blog/',
   theme: 'reco',
   themeConfig: {
@@ -8,6 +8,7 @@ module.exports = {
     authorAvatar: '/avatar.jpg',
     type: 'blog',
     author: 'lihaoyu',
+    mode: 'light',
     nav: [
       { text: '首页', link: '/' },
       { text: '掘金', link: 'https://juejin.cn/user/4212984287607246' },
@@ -61,32 +62,6 @@ module.exports = {
         size: 4, // size of the particle, default: 2
         shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
         zIndex: 999999999, // z-index property of the canvas, default: 999999999
-      },
-    ],
-    [
-      '@vuepress-reco/vuepress-plugin-bgm-player',
-      {
-        audios: [
-          {
-            name: '강남역 4번 출구',
-            artist: 'Plastic / Fallin` Dild',
-            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-            cover: 'https://assets.smallsunnyfox.com/music/3.jpg',
-          },
-          {
-            name: '팔베개',
-            artist: '최낙타',
-            url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-            cover:
-              'https://p1.music.126.net/qTSIZ27qiFvRoKj-P30BiA==/109951165895951287.jpg?param=200y200',
-          },
-        ],
-        // 是否默认缩小
-        autoShrink: true,
-        // 缩小时缩为哪种模式
-        shrinkMode: 'float',
-        // 悬浮窗样式
-        floatStyle: { bottom: '20px', 'z-index': '999999' },
       },
     ],
   ],
